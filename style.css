@@ -1,0 +1,25 @@
+body {
+    font-family: Futura, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #content p {
+    font-size: 27px;
+    color: #835c5c;
+  }
+  
+/* 예시: 동적으로 추가된 Spotify iframe의 스타일을 CSS에서 관리 */
+.spotify-iframe {
+    position: absolute;
+    left: 50%;
+    top: 500px;               /* 원하는 상단 위치로 조정 */
+    transform: translateX(-50%);
+    width: 30%;               /* 원하는 너비 */
+    height: 90px;            /* 원하는 높이 */
+    border-radius: 12px;
+    border: none;
+  }
+  
